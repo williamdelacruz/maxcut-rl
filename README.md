@@ -14,16 +14,18 @@ This repository explores solving the Max-Cut problem using a Graph Neural Networ
 ## Project Structure
 
 ```
-maxcut-gnn-rl/
+maxcut-rl/
+├── data/                   # Data generation
+│   ├── graps.py            # Random graph generation
+├── env/                    # Max-Cut environment (gym-like)
+│   ├── maxcut_env.py       # Environment generation
+├── model/                  # GNN architecture
+│   ├── gnn.py              # GNN creation
 ├── train/                  # Training logic and environment
 │   ├── train.py            # Main training loop
-│   ├── model.py            # GNN architecture
-│   ├── env.py              # Max-Cut environment (gym-like)
-│   ├── sdp.py              # SDP upper bound computation
-│   └── utils.py            # Helper functions
-├── config.yaml             # Training and model configuration
+├── config.py               # Training and model configuration
+├── setup_project.py        # Project configuration
 ├── requirements.txt        # Dependencies
-├── training_rewards.png    # (Optional) reward plot after training
 └── README.md
 ```
 
