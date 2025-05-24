@@ -15,5 +15,5 @@ venv/
 maxcut-env/
 
 # Archivos de salida
-# training_rewards.png
-# graph_partition.png
+training_rewards.png
+graph_partition.png
