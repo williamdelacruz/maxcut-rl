@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pt
+
+# Entornos virtuales
+.env/
+venv/
+maxcut-env/
+
+# Archivos de salida
+training_rewards.png
